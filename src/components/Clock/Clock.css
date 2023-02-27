@@ -1,0 +1,11 @@
+@font-face {
+	font-family: clock;
+	font-style: normal;
+	font-weight: normal;
+	src: url('c-click-clock-font/ClickClock-lgE1d.otf');
+}
+
+.clock {
+  font-family: clock;
+  font-weight: 100;
+}

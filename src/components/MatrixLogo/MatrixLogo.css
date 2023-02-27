@@ -1,0 +1,34 @@
+@font-face {
+	font-family: matrix;
+	font-style: normal;
+	font-weight: normal;
+	src: url('matrix-font/Matrix-MZ4P.ttf');
+}
+
+h1 {
+  font-family: matrix;
+  font-weight: 100;
+  color: #777777;
+}
+
+.size {
+	font-size: 100px;
+}
+
+@media screen and (max-width: 515px) {
+	.size {
+		font-size: 80px;
+	}
+}
+
+@media screen and (max-width: 255px) {
+	.size {
+		font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 191px) {
+	.size {
+		font-size: 40px;
+	}
+}
