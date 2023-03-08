@@ -17,11 +17,11 @@ class Clock extends Component {
     clearInterval(this.interval);
   }
   
-  updateNow(){
+  updateNow() {
     this.setState(Object.assign({}, this.state, {now: new Date()}));
   }
   
-  formatClockNum(clock_num){
+  formatClockNum(clock_num) {
     return clock_num.toString().padStart(2, '0');
   }
   
