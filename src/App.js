@@ -6,8 +6,7 @@ import Characters from "./routes/Characters";
 import Trailers from "./routes/Trailers";
 import Quotes from "./routes/Quotes";
 import ShortClips from "./routes/ShortClips";
-import './App.css';
-
+import "./App.css";
 
 function App() {
   return (

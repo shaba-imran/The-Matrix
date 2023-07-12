@@ -1,9 +1,9 @@
-const Quotes  = () => {
-	return (
-		<div>
-			<h1>Shaba</h1>
-		</div>
-	);
-}
+const Quotes = () => {
+  return (
+    <div>
+      <h1 className="tracked">This line is tapped</h1>
+    </div>
+  );
+};
 
 export default Quotes;
