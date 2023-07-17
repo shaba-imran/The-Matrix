@@ -1,14 +1,14 @@
 import { Outlet } from "react-router-dom";
-import Navigation from '../components/Navigation/Navigation';
+import Navigation from "../components/Navigation/Navigation";
 
 const Layout = () => {
   return (
-    <div className='pb5 pt2'>
+    <div className="pb5 pt2">
       <Navigation />
 
-      <Outlet/>
+      <Outlet />
     </div>
   );
-}
+};
 
 export default Layout;
