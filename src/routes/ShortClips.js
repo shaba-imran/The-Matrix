@@ -1,7 +1,12 @@
+import YoutubeEmbed from "../components/YoutubeEmbed/YoutubeEmbed";
+
 const ShortClips = () => {
   return (
     <div>
-      <h1 className="tracked">This line is tapped</h1>
+      <YoutubeEmbed src={""} title={""} />
+      <YoutubeEmbed src={""} title={""} />
+      <YoutubeEmbed src={""} title={""} />
+      <YoutubeEmbed src={""} title={""} />
     </div>
   );
 };

@@ -1,0 +1,65 @@
+.iframeWrapper {
+    padding: 7px;
+    display: inline;
+}
+
+@media screen and (max-width: 1355px) {
+    .iframeWrapper {
+        padding: 0;
+        display: block;
+    }
+
+    iframe {
+        width: 830px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1307px) {
+    iframe {
+        width: 650px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    iframe {
+        width: 530px;
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    iframe {
+        width: 430px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    iframe {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    iframe {
+        width: 295px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    iframe {
+        width: 235px;
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 247px) {
+    iframe {
+        width: 215px;
+        height: 210px;
+    }
+}
