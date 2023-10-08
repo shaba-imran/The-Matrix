@@ -10,6 +10,7 @@ const Films = () => {
       <ErrorBoundary>
         <FilmCardList filmInfo={filmInfo} />
       </ErrorBoundary>
+      <h1 className="tracked">This line is tapped</h1>
       <div className="mt4 w-80 w-90-m center">
         <h3 className="light-silver">{filmInfo[0].title}</h3>
         <p>
