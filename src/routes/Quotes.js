@@ -1,7 +1,9 @@
+import ImageCarousel from "../components/ImageCarousel/ImageCarousel";
+
 const Quotes = () => {
   return (
     <div>
-      <h1 className="tracked">This line is tapped</h1>
+      <ImageCarousel />
     </div>
   );
 };
