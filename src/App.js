@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <BrowserRouter basename="/The-Matrix">
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route exact path="/The-Matrix" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="films" element={<Films />} />
             <Route path="characters" element={<Characters />} />
