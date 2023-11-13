@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./routes/Layout";
 import Home from "./routes/Home";
 import Films from "./routes/Films";
@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/The-Matrix">
+      <HashRouter basename="/The-Matrix">
         <Routes>
           <Route exact path="/The-Matrix" element={<Layout />}>
             <Route index element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
             <Route path="clips" element={<ShortClips />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
