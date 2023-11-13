@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter basename="/The-Matrix/#">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
