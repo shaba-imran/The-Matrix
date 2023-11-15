@@ -11,15 +11,31 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <HashRouter basename="/The-Matrix/#">
+      {/* <HashRouter basename="/The-Matrix/#"> */}
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="films" element={<Films />} />
-            <Route path="characters" element={<Characters />} />
-            <Route path="trailers" element={<Trailers />} />
-            <Route path="quotes" element={<Quotes />} />
-            <Route path="clips" element={<ShortClips />} />
+            <Route
+              path="https://shaba-imran.github.io/The-Matrix/films"
+              element={<Films />}
+            />
+            <Route
+              path="https://shaba-imran.github.io/The-Matrix/characters"
+              element={<Characters />}
+            />
+            <Route
+              path="https://shaba-imran.github.io/The-Matrix/trailers"
+              element={<Trailers />}
+            />
+            <Route
+              path="https://shaba-imran.github.io/The-Matrix/quotes"
+              element={<Quotes />}
+            />
+            <Route
+              path="https://shaba-imran.github.io/The-Matrix/clips"
+              element={<ShortClips />}
+            />
           </Route>
         </Routes>
       </HashRouter>

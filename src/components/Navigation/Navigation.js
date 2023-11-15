@@ -6,22 +6,30 @@ const Navigation = () => {
     <nav className="mw7 center mt4 pb3">
       <ul>
         <li className="f6 f5-l link bg-animate hover-bg-purple dib pa3 ph4-l">
-          <Link to="/">Home</Link>
+          <Link to="https://shaba-imran.github.io/The-Matrix/">Home</Link>
         </li>
         <li className="f6 f5-l link bg-animate hover-bg-purple dib pa3 ph4-l">
-          <Link to="/films">Films</Link>
+          <Link to="https://shaba-imran.github.io/The-Matrix/films">Films</Link>
         </li>
         <li className="f6 f5-l link bg-animate hover-bg-purple dib pa3 ph4-l">
-          <Link to="/characters">Characters</Link>
+          <Link to="https://shaba-imran.github.io/The-Matrix/characters">
+            Characters
+          </Link>
         </li>
         <li className="f6 f5-l link bg-animate hover-bg-purple dib pa3 ph4-l">
-          <Link to="/trailers">Trailers</Link>
+          <Link to="https://shaba-imran.github.io/The-Matrix/trailers">
+            Trailers
+          </Link>
         </li>
         <li className="f6 f5-l link bg-animate hover-bg-purple dib pa3 ph4-l">
-          <Link to="/quotes">Quotes</Link>
+          <Link to="https://shaba-imran.github.io/The-Matrix/quotes">
+            Quotes
+          </Link>
         </li>
         <li className="f6 f5-l link bg-animate hover-bg-purple dib pa3 ph4-l">
-          <Link to="/clips">ShortClips</Link>
+          <Link to="https://shaba-imran.github.io/The-Matrix/clips">
+            ShortClips
+          </Link>
         </li>
       </ul>
     </nav>
