@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       <MatrixLogo />
       <Clock />
-      <h2 className="baskerville mt5 mb3 f4 ttu tracked">
+      <h2 className="baskerville mt5 mb3 f4 ttu ph2 tracked">
         It's the question that drives us, It's the question that brought you
         here...
       </h2>
