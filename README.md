@@ -35,7 +35,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 ## 👤 Author
 
 - Imran Usman-Shaba
-- GitHub: @shaba-imran
+- GitHub: @shabaimrandev
 - Project: The Matrix Website
 
 ⭐ If you like this project, give it a star on GitHub!
